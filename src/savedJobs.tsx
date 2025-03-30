@@ -29,7 +29,7 @@ const SavedJobsPage: React.FC<SavedJobsPageProps> = ({
       jobId, 
       jobTitle, 
       company,
-      routeName: 'SavedJobsPage' // Fixed to match navigationTypes
+      routeName: 'SavedJobsPage' 
     });
   };
 

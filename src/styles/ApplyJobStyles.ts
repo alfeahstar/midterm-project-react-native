@@ -1,11 +1,14 @@
 import { StyleSheet } from 'react-native';
 
 export const applyJobStyles = StyleSheet.create({
-  container: {
+  scrollContainer: {
     flexGrow: 1,
+    backgroundColor: 'rgb(221, 235, 253)',
+  },
+  contentContainer: {
     padding: 24,
     paddingTop: 40,
-    backgroundColor: 'rgb(221, 235, 253)',
+    paddingBottom: 40,
   },
   headerContainer: {
     marginBottom: 32,
@@ -50,6 +53,10 @@ export const applyJobStyles = StyleSheet.create({
     textAlignVertical: 'top',
     paddingTop: 16,
   },
+  buttonWrapper: {
+    marginTop: 20,
+    marginBottom: 40,
+  },
   button: {
     borderRadius: 8,
     paddingVertical: 16,
@@ -67,7 +74,7 @@ export const applyJobStyles = StyleSheet.create({
     fontWeight: '600',
     fontSize: 16,
   },
-
+  
   // Dark mode styles
   darkContainer: {
     backgroundColor: '#121212',
@@ -83,4 +90,47 @@ export const applyJobStyles = StyleSheet.create({
     borderColor: '#333',
     color: '#FFFFFF',
   },
+disabledInput: {
+  backgroundColor: '#F3F4F6',
+  color: '#6B7280',
+},
+disabledTextArea: {
+  backgroundColor: '#F3F4F6',
+  color: '#6B7280',
+  height: 150,
+},
+disabledLabel: {
+  color: '#6B7280',
+},
+disabledText: {
+  color: '#6B7280',
+},
+disabledSubtext: {
+  color: '#9CA3AF',
+},
+disabledPlaceholder: {
+  color: '#9CA3AF',
+},
+
+darkDisabledInput: {
+  backgroundColor: '#2D2D2D',
+  color: '#A1A1A1',
+},
+darkDisabledTextArea: {
+  backgroundColor: '#2D2D2D',
+  color: '#A1A1A1',
+  height: 150,
+},
+darkDisabledLabel: {
+  color: '#A1A1A1',
+},
+darkDisabledText: {
+  color: '#A1A1A1',
+},
+darkDisabledSubtext: {
+  color: '#7A7A7A',
+},
+darkDisabledPlaceholder: {
+  color: '#7A7A7A',
+},
 });

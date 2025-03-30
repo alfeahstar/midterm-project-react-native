@@ -65,6 +65,7 @@ export const savedJobStyles = StyleSheet.create({
     fontWeight: '500',
     color: '#4CAF50',
     marginLeft: 52,
+    top: -8,
   },
   buttonContainer: {
     flexDirection: 'row',
